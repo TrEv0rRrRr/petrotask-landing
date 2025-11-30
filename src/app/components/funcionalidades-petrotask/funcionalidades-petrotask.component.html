@@ -1,0 +1,16 @@
+<section class="funcionalidades-petrotask-container">
+  <div class="content-wrapper">
+    <h2 class="funcionalidades-title">{{ 'functions.title' | translate }}</h2>
+    <p class="funcionalidades-subtitle">{{ 'functions.subtitle' | translate }}</p>
+
+    <div class="functions-container">
+      @for (funcionalidad of funcionalidades; track funcionalidad.title) {
+        <app-function
+          [title]="funcionalidad.title"
+          [functionText]="funcionalidad.description"
+          [accentColor]="funcionalidad.accentColor"
+        ></app-function>
+      }
+    </div>
+  </div>
+</section>

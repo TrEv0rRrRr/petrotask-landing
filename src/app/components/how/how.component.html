@@ -1,0 +1,16 @@
+<div class="how-container">
+  <div class="text-container">
+    <h2 class="title heading-lg">{{ 'how.title' | translate }}</h2>
+    <div class="steps">
+      @for (step of steps; track step) {
+        <p class="short-text">{{ step.title | translate }}</p>
+        <p class="long-text">{{ step.description | translate }}</p>
+      }
+    </div>
+  </div>
+
+  <!-- Todavía no hay video :c -->
+  <div class="video-placeholder">
+    <img class="img-container" src="../../../assets/logo.png" alt="PetroTask">
+  </div>
+</div>

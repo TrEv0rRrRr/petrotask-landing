@@ -1,0 +1,128 @@
+.pricing-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(230, 128, 26, 0.2);
+}
+
+.pricing-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #008B64;
+}
+
+.plan-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2D3142;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.plan-description {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.plan-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2D3142;
+  margin-bottom: 20px;
+}
+
+.recommended-badge {
+  background: #4ECDC4;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.plan-features li {
+  padding: 8px 0;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+  color: #555;
+  font-size: 14px;
+}
+
+.plan-features li::before {
+  content: "✓";
+  color: #4ECDC4;
+  font-weight: bold;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.plan-features li:last-child {
+  border-bottom: none;
+}
+
+.price-btn {
+  background-color: #FF6B35;
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.price-btn:hover {
+  background-color: #d67516;
+  box-shadow: 0 6px 20px rgba(230, 128, 26, 0.4);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .pricing-card {
+    width: 280px;
+    padding: 25px;
+  }
+
+  .plan-title {
+    font-size: 24px;
+  }
+
+  .plan-features {
+    font-size: 15px;
+  }
+}

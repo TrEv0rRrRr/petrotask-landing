@@ -1,0 +1,132 @@
+.why-container {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: #008B64;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 5%;
+  position: relative;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+  max-width: 700px;
+  z-index: 2;
+}
+
+.title {
+  color: #4ECDC4;
+  font-size: 42px;
+  text-align: left;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: #008B64;
+  border-radius: 2px;
+}
+
+.long-text {
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  width: 400px;
+  height: 300px;
+  background-image: url('../../../assets/truck.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  margin-right: 30px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Media queries para responsividad */
+@media (max-width: 1200px) {
+  .text-container {
+    width: 50%;
+  }
+
+  .img-container {
+    width: 280px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .why-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 30px;
+  }
+
+  .text-container {
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    order: 1;
+  }
+
+  .img-container {
+    order: 2;
+    margin-right: 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .long-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .long-text {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .img-container {
+    width: 220px;
+  }
+}

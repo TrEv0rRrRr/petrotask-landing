@@ -1,0 +1,15 @@
+<section class="faq-section">
+  <div class="container">
+    <h2 class="section-title">{{ 'faq.title' | translate }}</h2>
+
+    <div class="faq-container">
+      @for (faq of faqItems; track faq.question) {
+        <app-extension-panel
+          [question]="faq.question | translate"
+          [questionNumber]="$index + 1">
+          <p>{{ faq.answer | translate }}</p>
+        </app-extension-panel>
+      }
+    </div>
+  </div>
+</section>

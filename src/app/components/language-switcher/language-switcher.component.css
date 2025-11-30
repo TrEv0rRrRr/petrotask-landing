@@ -1,0 +1,67 @@
+.language-switcher-container {
+  display: flex;
+  align-items: center;
+}
+
+::ng-deep .mat-button-toggle-group {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: var(--radius-md) !important;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::ng-deep .mat-button-toggle {
+  background: transparent !important;
+  color: var(--color-white) !important;
+  border: none !important;
+  padding: var(--spacing-1) var(--spacing-3) !important;
+  min-width: 45px;
+  transition: all var(--transition-normal) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+::ng-deep .mat-button-toggle:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+::ng-deep .mat-button-toggle.mat-button-toggle-checked {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.language-toggle {
+  display: flex !important;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.language-flag {
+  display: flex;
+  align-items: center;
+}
+
+.language-flag img {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.language-code {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .language-code {
+    display: none;
+  }
+
+  ::ng-deep .mat-button-toggle {
+    padding: var(--spacing-1) var(--spacing-2) !important;
+    min-width: 40px;
+  }
+}

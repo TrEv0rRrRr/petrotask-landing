@@ -1,0 +1,214 @@
+{
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "namePlaceholder": "Jhon Doe",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "jhondoe@gmail.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Inserta aquí tu mensaje",
+    "send": "Enviar",
+    "us": "Contáctate con Nosotros",
+    "text": "También puedes ponerte en contacto con nosotros a través de nuestras redes sociales, correo electrónico o número telefónico. Estaremos encantados de responder todas tus consultas y brindarte la asistencia que necesitas.",
+    "emailContact": "petrotask@gmail.com",
+    "phoneContact": "+51 956 516 667"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": {
+      "q1": {
+        "question": "1. ¿Funciona sin conexión a Internet?",
+        "answer": "Sí. Los técnicos pueden trabajar en modo offline y, cuando recuperan conexión, la app sincroniza automáticamente todas las actualizaciones."
+      },
+      "q2": {
+        "question": "2. ¿Qué niveles de usuario existen?",
+        "answer": "Contamos con roles de Supervisor, Técnico y Gerente, cada uno con permisos y vistas específicas."
+      },
+      "q3": {
+        "question": "3. ¿Cómo se gestionan las alertas?",
+        "answer": "Puedes configurar alertas automáticas por condiciones de seguridad, retrasos o incidencias. Se notifican por push y quedan registradas."
+      },
+      "q4": {
+        "question": "4. ¿Puedo exportar reportes?",
+        "answer": "Sí. Los reportes pueden exportarse en PDF y Excel, con filtros por fechas, equipos y estados."
+      },
+      "q5": {
+        "question": "5. ¿Se puede integrar con otros sistemas?",
+        "answer": "Disponemos de API e integraciones. También evaluamos integraciones a medida según tus sistemas existentes."
+      },
+      "q6": {
+        "question": "6. ¿Hay formación para el equipo?",
+        "answer": "Incluimos capacitación de onboarding y materiales de soporte. Ofrecemos sesiones adicionales bajo demanda."
+      }
+    }
+  },
+  "footer": {
+    "networks": "Nuestras Redes",
+    "sections": "Secciones",
+    "what": "¿Qué es PetroTask?",
+    "why": "¿Por qué nace PetroTask?",
+    "functions": "Funcionalidades",
+    "benefits": "Beneficios",
+    "plans": "Planes",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "emailContact": "SwiftPort@gmail.com",
+    "phoneContact": "+51 956 516 667"
+  },
+  "functions": {
+    "title": "Funcionalidades de PetroTask",
+    "list": {
+      "item1": {
+        "title": "Gestión de proyectos y tareas",
+        "description": "Crea tareas con descripción, prioridad y recursos, asigna a técnicos a equipos en un par de clicks"
+      },
+      "item2": {
+        "title": "Reprogramación en tiempo real",
+        "description": "Ajusta el plan ante imprevistos y reordena prioridades al instante."
+      },
+      "item3": {
+        "title": "Modo offline y sincronización automática",
+        "description": "Los técnicos trabajan sin conexión; los datos se sincronizan cuando hay red."
+      },
+      "item4": {
+        "title": "Alertas automáticas y notificaciones push",
+        "description": "Configura condiciones que disparan alertas y recibe notificaciones de seguridad."
+      },
+      "item5": {
+        "title": "Dashboards y reportes",
+        "description": "Visibilidad completa del estado de tareas, métricas de cumplimiento y reportes exportables."
+      },
+      "item6": {
+        "title": "Seguridad y trazabilidad",
+        "description": "Historial completo de operaciones con evidencias y control de accesos."
+      }
+    }
+  },
+  "header": {
+    "start": "Inicio",
+    "what": "¿Qué es PetroTask?",
+    "functions": "Funcionalidades",
+    "plans": "Planes",
+    "login": "Iniciar sesión",
+    "register": "Regístrate"
+  },
+  "how": {
+    "title": "¿Cómo funciona PetroTask?",
+    "steps": {
+      "step1": {
+        "title": "Paso 1",
+        "description": "El supervisor crea las tareas y fases de trabajo."
+      },
+      "step2": {
+        "title": "Paso 2",
+        "description": "Se asignan recursos según disponibilidad en campo."
+      },
+      "step3": {
+        "title": "Paso 3",
+        "description": "Los operarios reciben notificaciones y ejecutan las tareas."
+      },
+      "step4": {
+        "title": "Paso 4",
+        "description": "Si hay retrasos o bloqueos, pueden informar en tiempo real."
+      },
+      "step5": {
+        "title": "Paso 5",
+        "description": "El supervisor valida, reprograma o reasigna en función del entorno."
+      }
+    }
+  },
+  "presentation": {
+    "callToAction": "Sé uno de los primeros en usar este servicio",
+    "demoButton": "Solicita una demo",
+    "tagline": "Transforma la operación en campo.",
+    "description": "PetroTask",
+    "subDescription": "Planifica, asigna y supervisa tareas en tiempo real"
+  },
+  "pricing": {
+    "title": "Elige tu plan",
+    "plans": {
+      "basic": {
+        "title": "Plan Básico",
+        "description": "Ideal para equipos pequeños que quieren orden y trazabilidad básica.",
+        "price": "$19/mes",
+        "features": [
+          "Hasta 10 usuarios",
+          "Crear y asignar tareas; prioridad y recursos",
+          "Inicio/fin de tarea y adjuntar fotos",
+          "Dashboard básico",
+          "Soporte por correo"
+        ],
+        "button": "Obtener Plan"
+      },
+      "pro": {
+        "title": "Plan Profesional",
+        "recommended": "¡Recomendado!",
+        "description": "Eficiencia avanzada para equipos en crecimiento. Incluye todo lo del Básico, más:",
+        "price": "$49/mes",
+        "features": [
+          "Hasta 50 usuarios",
+          "Reprogramación en tiempo real",
+          "Modo offline completo + sincronización automática",
+          "Notificaciones push y alertas configurables",
+          "Dashboard avanzado con mapas y métricas",
+          "Reportes exportables (PDF / Excel)",
+          "Soporte por chat y correo"
+        ],
+        "button": "Obtener Plan"
+      },
+      "enterprise": {
+        "title": "Plan Corporativo",
+        "description": "Potencia y control para operaciones a gran escala. Incluye todo lo del Profesional, más:",
+        "price": "$99/mes",
+        "features": [
+          "Usuarios ilimitados",
+          "Personalización y branding",
+          "Acceso a API e integraciones",
+          "Módulos avanzados de seguridad y auditoría",
+          "Capacitación inicial y soporte prioritario 24/7",
+          "SLA y despliegue on-premise o privado si aplica"
+        ],
+        "button": "Obtener Plan"
+      }
+    }
+  },
+  "what": {
+    "title": "¿Qué es PetroTask?",
+    "text1": "PetroTask es una plataforma digital diseñada para optimizar la gestión de tareas y procesos en el sector petrolero. Con una interfaz intuitiva y herramientas especializadas, facilita la planificación, seguimiento y control de operaciones en todas las fases de la cadena logística."
+  },
+  "why": {
+    "title": "¿Por qué nace PetroTask?",
+    "text1": "La industria petrolera enfrenta retos constantes: proyectos de gran escala, equipos distribuidos y la necesidad de precisión en cada etapa. PetroTask nace como respuesta a estas demandas, ofreciendo una solución tecnológica que conecta equipos, centraliza información y mejora la eficiencia operativa."
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "items": {
+      "supervisors": {
+        "title": "Para Supervisores",
+        "points": [
+          "Crear, asignar y reprogramar tareas",
+          "Monitorizar todas las tareas desde el dashboard",
+          "Configurar alertas y ver el historial de respuestas"
+        ]
+      },
+      "technicians": {
+        "title": "Para Técnicos",
+        "points": [
+          "Acceso a tareas sin conexión",
+          "Registrar inicio/fin y adjuntar fotos como evidencia",
+          "Reportar incidencias desde el campo y recibir notificaciones push"
+        ]
+      },
+      "managers": {
+        "title": "Para Gerentes",
+        "points": [
+          "Generar reportes personalizados de productividad",
+          "Acceder al historial completo con evidencias para verificaciones y cumplimiento"
+        ]
+      }
+    }
+  }
+}

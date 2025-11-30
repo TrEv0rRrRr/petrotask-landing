@@ -1,0 +1,17 @@
+<section class="pricing-section">
+  <h2 class="pricing-title">{{ 'pricing.title' | translate }}</h2>
+  <p class="pricing-subtitle">{{ 'pricing.subtitle' | translate }}</p>
+
+  <div class="pricing-grid">
+    @for (plan of plans; track plan.title) {
+    <app-pricing-card
+      [title]="plan.title"
+      [description]="plan.description"
+      [features]="plan.features"
+      [price]="plan.price"
+      [button]="plan.button"
+      [recommended]="plan.recommended">
+    </app-pricing-card>
+    }
+  </div>
+</section>

@@ -1,0 +1,13 @@
+<div class="pricing-card">
+  <div *ngIf="recommended" class="recommended-badge">{{ recommended ? '¡Recomendado!' : '' }}</div>
+  <h3 class="plan-title">{{ title }}</h3>
+  <p *ngIf="description" class="plan-description">{{ description }}</p>
+  <div class="plan-price">{{ price }}</div>
+  <ul class="plan-features">
+    <li *ngFor="let feature of features">{{ feature }}</li>
+  </ul>
+  <a href="https://yellow-flower-081ba590f.6.azurestaticapps.net/register" target="_blank" rel="noopener">
+    <button class="price-btn">{{ button || price }}</button>
+  </a>
+</div>
+
