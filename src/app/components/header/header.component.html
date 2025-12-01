@@ -9,7 +9,12 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen" aria-label="Toggle menu">
+      <button
+        class="mobile-menu-toggle"
+        (click)="toggleMenu()"
+        [class.active]="isMenuOpen"
+        aria-label="Toggle menu"
+      >
         <span></span>
         <span></span>
         <span></span>
@@ -19,16 +24,27 @@
       <nav class="nav" [class.open]="isMenuOpen">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#presentation" class="nav-link" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
+            <a
+              href="#presentation"
+              class="nav-link"
+              (click)="closeMenu($event)"
+              >{{ "header.start" | translate }}</a
+            >
           </li>
           <li class="nav-item">
-            <a href="#what" class="nav-link" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
+            <a href="#what" class="nav-link" (click)="closeMenu($event)"
+              >{{ "header.what" | translate }}?</a
+            >
           </li>
           <li class="nav-item">
-            <a href="#features" class="nav-link" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
+            <a href="#features" class="nav-link" (click)="closeMenu($event)">{{
+              "header.functions" | translate
+            }}</a>
           </li>
           <li class="nav-item">
-            <a href="#pricing" class="nav-link" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
+            <a href="#pricing" class="nav-link" (click)="closeMenu($event)">{{
+              "header.plans" | translate
+            }}</a>
           </li>
         </ul>
       </nav>
@@ -36,17 +52,31 @@
       <!-- Right Section -->
       <div class="header-right">
         <!-- Language Switcher -->
-        <app-language-switcher class="language-switcher"></app-language-switcher>
+        <app-language-switcher
+          class="language-switcher"
+        ></app-language-switcher>
         <!-- Login Link -->
-        <a href="https://wonderful-hill-0cc49150f.2.azurestaticapps.net/login" class="login-button" target="_blank" rel="noopener" (click)="closeMenu($event)">
+        <a
+          href="https://petrotask-front.vercel.app/login"
+          class="login-button"
+          target="_blank"
+          rel="noopener"
+          (click)="closeMenu($event)"
+        >
           <i class="fas fa-sign-in-alt"></i>
-          {{ 'header.login' | translate }}
+          {{ "header.login" | translate }}
         </a>
 
         <!-- Register Link -->
-        <a href="https://wonderful-hill-0cc49150f.2.azurestaticapps.net/register" class="register-button" target="_blank" rel="noopener" (click)="closeMenu($event)">
+        <a
+          href="https://petrotask-front.vercel.app/register"
+          class="register-button"
+          target="_blank"
+          rel="noopener"
+          (click)="closeMenu($event)"
+        >
           <i class="fas fa-user-plus"></i>
-          {{ 'header.register' | translate }}
+          {{ "header.register" | translate }}
         </a>
       </div>
     </div>
